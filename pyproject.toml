@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "staplechain"
+version = "0.1.0"
+description = "Signed in-band annotations for language model outputs"
+authors = ["Kevin Liu <kevin@kliu.io>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.5"
+Brotli = "^1.0.9"
+pydantic = "^1.10.7"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^23.3.0"}
+python-dotenv = "^1.0.0"
+devtools = "^0.11.0"
+ipykernel = "^6.22.0"
+pyright = "^1.1.305"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
