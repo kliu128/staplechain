@@ -14,6 +14,8 @@ lsh = "*"
 [dev-packages]
 ipykernel = "*"
 black = {extras = ["jupyter"], version = "*"}
+python-dotenv = "*"
+devtools = "*"
 
 [requires]
 python_version = "3.11"

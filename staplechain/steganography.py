@@ -86,4 +86,4 @@ def add_staple(staple: Staple, text: str) -> str:
         )
 
     # Embed the chain into the text
-    return _add_staple_chain(chain, text)
+    return _add_staple_chain(chain, clean_text(text))
